@@ -1,5 +1,6 @@
 # brew
 eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+PATH=/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/current/bin:$PATH
 
 # bash line
 parse_git_branch() {
